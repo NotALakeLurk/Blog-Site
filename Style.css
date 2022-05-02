@@ -1,11 +1,20 @@
-body{
+body {
 	background-image:url('download.jpeg');
 	background-repeat:repeat;
 }
 
-table,th,td{
+table,th,td {
 	color:red;
 	border:1px solid white;
 	border-collapse:  collapse;
 	background-color: grey;
+}
+
+button {
+	background-color:black;
+	color:white;
+}
+
+footer {
+	color:white;
 }
