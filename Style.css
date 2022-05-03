@@ -1,13 +1,15 @@
 body {
 	background-image:url('download.jpeg');
 	background-repeat:repeat;
+	background-size: 100%;
+	background-attachment: fixed;
 }
 
 table,th,td {
-	color:red;
-	border:1px solid white;
+	color:black;
+	border:1px solid black;
 	border-collapse:  collapse;
-	background-color: grey;
+	background-color: white;
 }
 
 button {

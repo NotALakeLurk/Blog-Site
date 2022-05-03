@@ -1,0 +1,21 @@
+-Short-Term
+	1. Contain all styling in `style.css`
+        -Make all <style> and `style=` into classes
+    2. (Done) Get rid of the rating section until it works 
+    3. (Done) Replace <div>s with semantics: <header>, <article>, <footer>, <nav>, <main> ex.
+    4. (Done) Change the titles of files to use lowercase (do on VSCode because those files don't get replaced, just updated)(remember to update stylesheet assigner) 
+    5. (Done) Move footer inside body
+
+-Mid-Term
+    1. Organize filetypes into folders
+    2. Create function to generate random color for each blog post (only style= not in style.css)
+    3. Get the JavaScript to work
+    4. Move the JavaScript to external file
+
+-Long-Term
+    1. Use `<form>` with `<textarea>`s to add new blogs from the page 
+	2. Allow user to `rate` the site or blogs using `<form>` with `<input type="num" min="1" max="10">` and store the data somewhere 
+	3. Undecided: rate blogs per blog, whole site rating, or both blog and site rating (would also apply to comments) 
+
+-Unsorted
+    1.
