@@ -3,71 +3,57 @@
 	<head>
 		<title>John's Blog Site</title>
 		<link rel="stylesheet" href="style.css">
+		<link rel="icon" type="image/x-icon" href="favicon.png">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="UTF-8">
 
-		<script>
-			//Functions
-
-		//generate a random rgb color
-		function RandColor()
-		{
-			let rgb = new Array(3); //create an array to store the r, g, & b values
-
-			//generate a random integer between 0 and 255 for each value
-			for(let i = 0; i < 3; i++)
-			{
-				rgb[i] = Random(0,255);
-			}
-
-			return(rgb); //return the array
-		}
-
-		//generate a random number >= min and <= max
-		function Random(min, max)
-		{
-			return(Math.floor(Math.random(min, (max + 1)))); //Math.floor result because max is excluded and must be 1 larger than intended in order to round down
-		}
-		</script>
+		<script type="text/javascript" src="script.js"></script>
 	</head>
 	
 	<body>
 		<!--Blog Posts-->
 		<main>
-		
-			<article style="color:yellow";>
+
+			<article id="article1";>
+				<script>RandColor('article1');</script>
 				<h1>Blog Post #1</h1>
 				<p>Did you know that HTML is actually really easy to code compared to c# or JavaScript! I got the hand of it in only 12 years!</p1>
 			</article>
 			
-			<article style="color:white";>
+			<article id="article2";>
+				<script>RandColor('article2');</script>
 				<h1>Blog Post #2</h1>
 				<h2>This is a subheading!</h2>
 				<p title="This text is about titles in HTML";>This is titled.</p2>
 			</article>
 			
-			<article style="color:red";>
+			<article id="article3">
+				<script>RandColor('article3');</script>
 				<h1>Blog Post #3</h1>
-				<img src="HTMLtestimage.png"; width="100";>
+				<img src="HTMLtestimage.png"; width="150">
 			</article>
 			
-			<article style="color:blue">
+			<article id="article4">
+				<script>RandColor('article4');</script>
 				<h1>Blog Post #4</h1>
 				<a href="https://www.onlinegdb.com/edit/CCbTfSAZX";>This is a link to my Wordle clone.</a>
 			</article>
 			
-			<article style="color:purple";>
+			<article id="article5">
+				<script>RandColor('article5');</script>
 				<h1>Blog Post #5</h1>
 				<h2>This is a Heading</h2>
-				<p style = "font-size:50px";>This is not a heading, it is a paragraph.</p>
+				<p style="font-size:50px";>This is not a heading, it is a paragraph.</p>
 			</article>
 			
-			<article style="text-align:center; color:orange;">
+			<article id="article6" class="centered">
+				<script>RandColor('article6');</script>
 				<h1>Blog Post #6</h1>
 				<p>This text is centered, get rekt Tyler!</p>
 			</article>
 			
-			<article style="color:aqua";>
+			<article id="article7">
+				<script>RandColor('article7');</script>
 				<h1>Blog Post #7</h1>
 				<p>The <em>next</em> HTML element is a <strong>list</strong>.<br>It can:</p>
 				<ul>
@@ -77,12 +63,14 @@
 				</ul>
 			</article>
 			
-			<article style="color:darkgreen";>
+			<article id="article8">
+				<script>RandColor('article8');</script>
 				<h1>Blog Post #8</h1>
 				<iframe width="853"; height="480"; src="https://www.youtube.com/embed/GL9VHb45WqQ"; title="YouTube video player"; frameborder="0"; allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"; allowfullscreen></iframe>
 			</article>
 			
-			<article style="color:goldenrod";>
+			<article id="article9">
+				<script>RandColor('article9');</script>
 				<h1>Blog Post #9</h1>
 
 				<p>This is a table.</p>
@@ -119,7 +107,8 @@
 				</table>
 			</article>
 			
-			<article style="color: brown";>
+			<article id="article10">
+				<script>RandColor('article10');</script>
 				<h1>Blog Post #10</h1>
 				<p>Please click this button to proccede.</p>
 				<button onclick="alert('You really push my buttons');">Reveal Secrets of the Universe</button>
