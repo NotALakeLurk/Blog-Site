@@ -5,7 +5,8 @@
     3. (Done) Replace <div>s with semantics: <header>, <article>, <footer>, <nav>, <main> ex.
     4. (Done) Change the titles of files to use lowercase (do on VSCode because those files don't get replaced, just updated)(remember to update stylesheet assigner) 
     5. (Done) Move footer inside body
-    6. Add alts to images and vid
+    6. (Done) Add alts to image
+    7. (Done) Add color change when hover over link or button
 
 -Mid-Term
     1. Organize filetypes into folders
