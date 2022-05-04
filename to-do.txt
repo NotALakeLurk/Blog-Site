@@ -9,7 +9,7 @@
     7. (Done) Add color change when hover over link or button
 
 -Mid-Term
-    1. Organize filetypes into folders
+    1. (Avoiding) Organize filetypes into folders
     2. (Done) Create function to generate random color for each blog post
     3. (Done) Get the JavaScript to work
     4. (Done) Move the JavaScript to external file
@@ -21,3 +21,5 @@
 
 -Unsorted
     1. Make `RandColor()` automatically apply to all articles without personally adding
+    2. Remove colors that don't work on the page from RandColor()
+    3. Fix RandLightColor

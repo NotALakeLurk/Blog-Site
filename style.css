@@ -1,3 +1,7 @@
+* {
+	font-family: 'Courier New', Courier, monospace;
+}
+
 body {
 	background-image:url('download.jpeg');
 	background-repeat:repeat;
@@ -6,15 +10,13 @@ body {
 }
 
 table,th,td {
-	color:black;
-	border:1px solid black;
+	border: 1px solid black;
 	border-collapse:  collapse;
-	background-color: white;
 }
 
 button {
-	background-color:black;
-	color:white;
+	background-color: transparent;
+	color:grey;
 }
 
 footer {
@@ -30,6 +32,19 @@ a:hover {
 }
 
 button:hover {
-	color: black;
-	background-color: white;
+	color: white;
+}
+
+article {
+	border: 1px solid;
+	padding: 1%;
+	margin: 1%;
+}
+
+iframe, img, video {
+	border: 2px solid;
+}
+
+audio {
+	height: 20px;
 }
