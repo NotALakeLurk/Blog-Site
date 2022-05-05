@@ -20,6 +20,6 @@
 	3. Undecided: rate blogs per blog, whole site rating, both blog and site rating, or not at all (would also apply to comments) 
 
 -Unsorted
-    1. Make `RandColor()` automatically apply to all articles without personally adding
-    2. Remove colors that don't work on the page from RandColor()
-    3. Fix RandLightColor
+    1. (Done) Make `RandColor()` automatically apply to all articles without personally adding
+    2. (Done) Remove colors that don't work on the page from RandColor()
+    3. (Done) Fix RandLightColor

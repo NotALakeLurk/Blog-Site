@@ -1,7 +1,7 @@
 //Functions
 
 //generate a random rgb color
-function RandLightColor()
+function RandLightColor(typ)
 {
 	let rgb = new Array(3); //create an array to store the r, g, & b values
 
@@ -10,17 +10,18 @@ function RandLightColor()
 	{
 		rgb[i] = Random(126, 255);
 	}
-	let articles = document.querySelectorAll('article');
-	for(let article in articles)
+
+	let elements = document.querySelectorAll(typ);
+	
+	for (let i = 0; i < elements.length; i++) 
 	{
-		document..style.color =`rgb(${rgb})`;
+		elements[i].style.color = `rgb(${rgb})`; //set the color of the element
 	}
-	alert
 }
 
 //generate a random number from 0 to max
 function Random(min, max)
 {
 	result = Math.floor(Math.random() * (max - min + 1)) + min; //random returns number 0-1,  
-	return(result);
+  return(result);
 }
