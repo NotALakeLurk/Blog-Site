@@ -13,9 +13,11 @@
     2. (Done) Create function to generate random color for each blog post
     3. (Done) Get the JavaScript to work
     4. (Done) Move the JavaScript to external file
+    5. Get PHP to return my resonse
 
 -Long-Term
-    1. Use `<form>` with `<textarea>`s to add new blogs from the page 
+    1. Use `<form>` with `<textarea>`s to add new blogs from the page
+        - Just use innerHTML and type pure HTML into the box
 	2. Allow user to `rate` the site or blogs using `<form>` with `<input type="num" min="1" max="10">` and store the data somewhere 
 	3. Undecided: rate blogs per blog, whole site rating, both blog and site rating, or not at all (would also apply to comments) 
 

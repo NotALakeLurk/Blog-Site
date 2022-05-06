@@ -7,21 +7,20 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="UTF-8">
 		<script type="text/javascript" src="script.js"></script>
-		
 	</head>
 	
 	<body>
 		<!--Blog Posts-->
-		<main>
+		<main id="mainbody">
 
-			<article class="article">
+			<article>
 				<h1>Blog Post #1</h1>
 				<p>Did you know that HTML is actually really easy to code compared to c# or JavaScript! I got the hand of it in only 12 years!</p1>
 			</article>
 			
 			<article>
 				<h1>Blog Post #2</h1>
-				<h2>This is a subheading!</h2>
+				<h3>This is a subheading!</h3>
 				<p title="This text is about titles in HTML";>This is titled.</p2>
 			</article>
 			
@@ -109,9 +108,26 @@
 				<p>This is a <em>cool</em> audio:</p>
 				<audio src="sample.mp3" controls type="audio/mp3"></audio>
 			</article>
-			
+
+			<article class="clearfix">
+				<h1>Blog Post #12</h1>
+				<p>Bitcoin is not:</p>
+				<img src="stonks.jpg"; alt="'Annoying Popup'"; id="stonks">
+			</article>
+
 		</main>
 		
+		<hr>
+
+		<article>
+			<!--Blog Creation-->
+			<h2>Blog Creation</h2>
+			<form action="test.php" method="get">
+				<textarea placeholder="Enter pure html here (This might get reworked later)" name="blog"></textarea>
+				<input type="submit">
+			</form>
+		</article>
+
 		<hr>
 
 		<footer>
@@ -120,11 +136,12 @@
 			<p>Author: John Reed</p>
 			<p>Contact me: TheRedCoat787@Gmail.com</p>
 			<p>Special Thanks to Mr. Richendollar for <em>inspiring</em> me to learn HTML.</p>
-			<p>Contact him: TRichendollar86@Gmail.com</p>	
+			<p>Contact him: TRichendollar86@Gmail.com</p>
+			<script>RandLightColor('article')</script>
 		</footer>
-
+		
 	</body>
 
-	<script>RandLightColor('article')</script>
+	
 
 </html>
