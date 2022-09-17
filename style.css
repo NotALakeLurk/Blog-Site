@@ -39,7 +39,7 @@ button:hover {
 	color: white;
 }
 
-article {
+article /* , .Grey */ {
 	border: 1px solid;
 	padding: 1%;
 	margin: 1% 0.5%;
@@ -69,4 +69,8 @@ textarea {
 	width: 50%;
 	height: 10em;
 	overflow: auto;
+}
+
+.Grey {
+	color: rgb(127, 127, 127);
 }
